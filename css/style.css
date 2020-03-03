@@ -1,14 +1,5 @@
 body {
-  background-color: #F4C2C2;
-}
-#container{
-	width:1024px;
-	margin: 0 auto;
-	min-height:700px;
-}
-#content{
-	width:100%;
-	min-height: 900px;
+  background-color: #dfcdc3;
 }
 ul {
 	
@@ -16,7 +7,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FBCEB1;
+  background-color: #6a1051;
 }
 
 li {
@@ -31,8 +22,9 @@ li a {
   text-decoration: none;
 }
 
+/* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #e38732;
+  background-color: #db75c5;
 }
 table {
   border-collapse: collapse;
@@ -44,14 +36,49 @@ th, td {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #679289}
+tr:nth-child(even){background-color: #fff1e9}
 
 th {
-  background-color: #f4c095;
+  background-color: #6a1051;
   color: white;
 }
 h1 {
-	text-align: left;
+	text-align: center;
+}
+category {
+  margin: auto;
+  width: 15%;
+  border:  3px  solid black ;
+  padding: 10px;
+}body {
+  background-color: #dfcdc3;
+}
+ul {
+	
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6a1051;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #dfcdc3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #db75c5;
+}
+table {
   border-collapse: collapse;
   width: 100%;
 }
@@ -61,12 +88,70 @@ th, td {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #679289}
+tr:nth-child(even){background-color: #fff1e9}
 
 th {
-  background-color: #f4c095;
+  background-color: #6a1051;
   color: white;
 }
 h1 {
-	text-align: left;
- }
+	text-align: center;
+}
+category {
+  margin: auto;
+  width: 15%;
+  border:  3px  solid black ;
+  padding: 10px;
+}body {
+  background-color: #dfcdc3;
+}
+ul {
+	
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6a1051;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #dfcdc3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #db75c5;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #fff1e9}
+
+th {
+  background-color: #6a1051;
+  color: white;
+}
+h1 {
+	text-align: center;
+}
+category {
+  margin: auto;
+  width: 15%;
+  border:  3px  solid black ;
+  padding: 10px;
+}
