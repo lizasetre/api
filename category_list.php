@@ -4,7 +4,7 @@
 	$category = $categoryData['records'];
 ?>
 
-<link rel="stylesheet" type="text/css" href="css/styles_product.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
 <h1>CATEGORY LIST</h1>
 <BR>
