@@ -7,7 +7,7 @@
 
 ?>
 
-<link rel="stylesheet" type="text/css" href="css/styles_products.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<br>
 	<h1> PRODUCT DETAILS </h1>
