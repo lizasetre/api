@@ -16,7 +16,7 @@ li {
 
 li a {
   display: block;
-  color: #dfcdc3;
+  color: #efbbcc;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -36,11 +36,11 @@ th, td {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #fff1e9}
+tr:nth-child(even){background-color: #E4717A}
 
 th {
-  background-color: #6a1051;
-  color: white;
+  background-color: #FFB7C5;
+  color: cherry blossom pink;
 }
 h1 {
 	text-align: center;
@@ -51,7 +51,7 @@ category {
   border:  3px  solid black ;
   padding: 10px;
 }body {
-  background-color: #dfcdc3;
+  background-color: #FBCCE7;
 }
 ul {
 	
@@ -59,7 +59,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #6a1051;
+  background-color: #FFFDD0;
 }
 
 li {
