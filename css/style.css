@@ -68,7 +68,7 @@ li {
 
 li a {
   display: block;
-  color: #dfcdc3;
+  color: #E9967A;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -76,7 +76,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #db75c5;
+  background-color: #CC4E5C;
 }
 table {
   border-collapse: collapse;
@@ -88,10 +88,10 @@ th, td {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #fff1e9}
+tr:nth-child(even){background-color: #EDC9AF}
 
 th {
-  background-color: #6a1051;
+  background-color: #F4BBFF;
   color: white;
 }
 h1 {
@@ -103,7 +103,7 @@ category {
   border:  3px  solid black ;
   padding: 10px;
 }body {
-  background-color: #dfcdc3;
+  background-color: #F4BBFF;
 }
 ul {
 	
@@ -111,7 +111,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #6a1051;
+  background-color: #B48395;
 }
 
 li {
@@ -120,7 +120,7 @@ li {
 
 li a {
   display: block;
-  color: #dfcdc3;
+  color: #FC8EAC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -128,7 +128,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #db75c5;
+  background-color: #71A6D2;
 }
 table {
   border-collapse: collapse;
@@ -140,11 +140,11 @@ th, td {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #fff1e9}
+tr:nth-child(even){background-color: #E79FC4}
 
 th {
-  background-color: #6a1051;
-  color: white;
+  background-color: #FFB7C5;
+  color: cherry blossom pink;
 }
 h1 {
 	text-align: center;
