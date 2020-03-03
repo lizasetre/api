@@ -5,7 +5,7 @@
 
 ?>
 
-<link rel="stylesheet" type="text/css" href="css/styles_products.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
 <form method="POST" action="pro_create.php">
 	<br>
