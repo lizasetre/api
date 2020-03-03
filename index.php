@@ -4,7 +4,7 @@
 <html>
 	<head> 
 		<title> API INVENTORY </title>
-		<link rel="stylesheet" type="text/css" href="css/styles_index.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<div class="header">
