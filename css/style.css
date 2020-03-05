@@ -1,11 +1,15 @@
-* {
-    box-sizing: border-box;
-  }
-
-body {
-  background-color: #F4BBFF;
+h1{
+  font-family: "Comic Sans MS", cursive, sans-serif ;
 }
- .navbar {
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+body
+{
+    margin: 0;
+    background-color: #0c8590;
+}
+  
+  /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+  .navbar {
     overflow: hidden;
     background-color: #333;
     position: sticky;
@@ -59,158 +63,154 @@ body {
 #create {
   top: 200px;
 }
-ul {
-	
-  list-style-type: none;
-  margin: 30;
-  padding: 10;
-  overflow: hidden;
-  background-color: #FFC1CC;
+#container{
+  width: 1024px;
+  margin: 0 auto;
+min-height: 1000px;
 }
 
-li {
-  float: left;
+#content{
+  width: 100%;
+  min-height: 900px;
 }
-
-li a {
-  display: block;
-  color: #efbbcc;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #db75c5;
-}
-table {
+#list {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
-
-th, td {
-  text-align: left;
+#list td, #list th {
+  border: 1px solid rgb(170, 163, 163);
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #E4717A}
+#list tr:nth-child(even){background-color: #f2f2f2;}
 
-th {
-  background-color: #FFB7C5;
-  color: cherry blossom pink;
-}
-h1 {
-	text-align: left;
-}
-category {
-  margin: auto;
-  width: 15%;
-  border:  3px  solid black ;
-  padding: 10px;
+#list tr:hover {background-color: #ddd;}
+
+#list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
   text-align: left;
-}body {
-  background-color: #FBCCE7;
-}
-ul {
-	
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #FFFDD0;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #E9967A;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #CC4E5C;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th, td {
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even){background-color: #EDC9AF}
-
-th {
-  background-color: #F4BBFF;
+  background-color: #000;
   color: white;
 }
-h1 {
-	text-align: center;
-}
-category {
-  margin: auto;
-  width: 15%;
-  border:  3px  solid black ;
-  padding: 10px;
-}body {
-  background-color: #F4BBFF;
-}
-ul {
-	
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #B48395;
+
+#link a {
+  text-decoration: none;
+  color:black;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #FC8EAC;
-  text-align: center;
-  padding: 14px 16px;
+#link a{
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #71A6D2;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
+#link a:hover {
+  text-decoration: underline;
+  color: 27c6fb;
 }
 
-th, td {
-  text-align: left;
-  padding: 8px;
+#link a:active {
+  text-decoration: underline;
 }
 
-tr:nth-child(even){background-color: #E79FC4}
-
-th {
-  background-color: #FFB7C5;
-  color: cherry blossom pink;
+.form-style-5{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
-h1 {
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #d2d9dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style-5 .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
 	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
 }
-category {
-  margin: auto;
-  width: 15%;
-  border:  3px  solid black ;
-  padding: 10px;
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: #108991;
 }
