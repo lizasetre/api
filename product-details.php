@@ -12,37 +12,35 @@ $value = $list;
     <head>  
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-
-
+    <br>
+<div id="container">
     <div class="navbar">
-        <ul>
-     <li><a href="index.php?navigation=product">Show</a><li>
-       <li> <a href="index.php?navigation=categories">Category</a><li>
-       <li> <a href="index.php?navigation=create">Create</a><li>
-        <li><a href="index.php?navigation=delete">Delete</a><li>
-        </ul>
+        <a href="index.php?page=product" id = "product">Products</a>
+        <a href="index.php?page=categories" id = "category">Category</a>
+        <a href="index.php?page=create" id = "create">Create</a>
     </div>
+        <div id="content">
+            <h1> Product Details </h1>
 
-<h1> Product Details </h1>
+            <table id="list">
+                <tr>
+                    <th>Product</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Category ID</th>
+                    <th>Options</th>
+                </tr>
 
-<table>
-    <tr>
-        <th>Product</th>
-        <th>Description</th>
-        <th>Price</th>
-        <th>Category ID</th>
-    </tr>
+                <tr>
+                    <td><?php echo $value['name'];?></td>
+                    <td><?php echo $value['description'];?></td>
+                    <td><?php echo $value['price'];?></td>
+                    <td><?php echo $value['category_id'];?></td>
+                    <td id ="link"><a href="form_update.php?id=<?php echo $id ?>">Update</a> or
+                    <a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></td>
+                </tr>
 
-    <tr>
-        <td><?php echo $value['name'];?></td>
-        <td><?php echo $value['description'];?></td>
-        <td><?php echo $value['price'];?></td>
-        <td><?php echo $value['category_id'];?></td>
-        <td><a href="form_update.php?id=<?php echo $id ?>">Update</a></td>
-        <td><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></td>
-    </tr>
-
-</table>
-
-   
+            </table>
+        </div> 
+</div>    
 </html>
