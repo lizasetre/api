@@ -17,7 +17,7 @@ li {
 li a {
   display: block;
   color: #efbbcc;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -43,7 +43,7 @@ th {
   color: cherry blossom pink;
 }
 h1 {
-	text-align: center;
+	text-align: left;
 }
 category {
   margin: auto;
@@ -69,7 +69,7 @@ li {
 li a {
   display: block;
   color: #E9967A;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
 }
