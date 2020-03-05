@@ -13,34 +13,37 @@
     <head>  
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
+	<br>
+<div id="container">
+			<div id="content">
+					<div class="navbar">
+						<a href="index.php?page=home" id = "home">Home</a>
+						<a href="index.php?page=product" id = "product">Show</a>
+						<a href="index.php?page=categories" id = "category">Category</a>
+						<a href="index.php?page=create" id = "create">Create</a>
+					</div>
+					
+					
+		<div class="form-style-5">		
+				<h1> Update Product </h1>
+				<form action="pro_update.php?id=<?php echo $id ?>" method="POST">
+					Product:<input type="text" name="name" value="<?php echo $result['name'];?>"/>
+					Description:<input type="text" name="description" value="<?php echo $result['description']; ?>"/>
+					Price:<input type="text" name="price" value="<?php echo $result['price']; ?>"/>
+					Category:<select name="category">
+					<option value="<?php echo $result['category_id'];?>"><?php echo $result['category_name'];?></option>
+						<?php
+						foreach($category as $cview){
+						?>
+							<option value="<?php echo $cview['id']?>"><?php echo $cview['name']?></option>
+						<?php
+						}
+						?>
+						</select>
+					<input type="submit" name="submit" value="submit"/>
 
-
-    <div class="navbar">
-	    <ul>
-       <li> <a href="index.php?navigation=product">Show</a> </li>
-         <li><a href="index.php?navigation=categories">Category</a> </li>
-        <li> <a href="index.php?navigation=create">Create</a> </li>
-       <li>  <a href="index.php?navigation=delete">Delete</a> </li>
-	    </ul>
-    </div>
-	<h1> Update Product </h1>
-<form action="pro_update.php?id=<?php echo $id ?>" method="POST"><br><br>
-	<input type="text" name="name" value="<?php echo $result['name'];?>"/><br><br>
-	<input type="text" name="description" value="<?php echo $result['description']; ?>"/><br><br>
-	<input type="text" name="price" value="<?php echo $result['price']; ?>"/><br><br>
-	<select name="category">
-	<option value="<?php echo $result['category_id'];?>"><?php echo $result['category_name'];?></option>
-		<?php
-		foreach($category as $cview){
-		?>
-			<option value="<?php echo $cview['id']?>"><?php echo $cview['name']?></option>
-		<?php
-		}
-		?>
-		</select>
-	<input type="submit" name="submit" value="submit"/>
-
-</form>
-
-
+				</form>
+		</div>	
+			</div>	
+</div>	
 </html>
