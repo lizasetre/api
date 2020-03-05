@@ -6,10 +6,11 @@ $list = $data['records'];
 
 
 ?>
- <link rel="stylesheet" type="text/css" href="css/style.css">
+<br>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <h1> Category list </h1>
 
-<table>
+<table id="list">
     <tr>
         <th>Category ID</th>
         <th>Category Name</th>
