@@ -18,6 +18,14 @@ li {
   float: left;
 }
 
+.navbar {
+    overflow: hidden;
+    background-color: #FFD700;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+
 li a {
   display: block;
   color: #efbbcc;
