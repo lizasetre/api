@@ -1,23 +1,23 @@
 <?php 
-$navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET['navigation']: '';
+$page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
 ?>
 <html> 
     <head>
-      <title> API Asetre </title>
+      <title>Endterm Activity #1</title>
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
+
+  <div id="container">  
       <div class="navbar">
-	  <ul>
-        <li><a href="index.php?navigation=product">Products</a></li>
-        <li><a href="index.php?navigation=categories">Category</a></li>
-        <li><a href="index.php?navigation=create">Create</a></li>
-		</ul>
+        <a href="index.php?page=product" id = "product">Products</a>
+        <a href="index.php?page=categories" id = "category">Category</a>
+        <a href="index.php?page=create" id = "create">Create</a>
       </div>
 
-      <div>         
+    <div id="content">         
       <?php 
-        switch($navigation){
+        switch($page){
           case 'product':
             require_once 'product.php';
             break;
@@ -27,11 +27,9 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
           case 'create':
             require_once 'form_create.php';
             break;
-          case 'details':
-            require_once 'product-details.php';
-            break;
         }
     ?>
       </div>
+  </div>    
     </body>
 </html>
