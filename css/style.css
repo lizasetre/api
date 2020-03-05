@@ -4,8 +4,8 @@ body {
 ul {
 	
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 15;
+  padding: 10;
   overflow: hidden;
   background-color: #FFC1CC;
 }
