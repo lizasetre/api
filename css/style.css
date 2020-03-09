@@ -74,7 +74,7 @@ min-height: 1000px;
   min-height: 900px;
 }
 #list {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: "Lucida Console", Monaco, monospace;
   border-collapse: collapse;
   width: 100%;
 }
@@ -144,7 +144,7 @@ min-height: 1000px;
 .form-style-5 input[type="url"],
 .form-style-5 textarea,
 .form-style-5 select {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Verdana, Geneva, sans-serif;
 	background: rgba(255,255,255,.1);
 	border: none;
 	border-radius: 4px;
@@ -156,8 +156,8 @@ min-height: 1000px;
 	box-sizing: border-box; 
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box; 
-	background-color: #e8eeef;
-	color:#8a97a0;
+	background-color: #1DACD6;
+	color:#FFC1CC;
 	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
 	margin-bottom: 30px;
