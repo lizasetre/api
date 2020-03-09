@@ -28,8 +28,10 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
             require_once 'form_create.php';
             break;
         }
-    ?>
+   ?>
       </div>
-  </div>    
+<br><br><br><br><br><br><br><br><br><br>
+      <div class="footer">
+      </div>
     </body>
 </html>
