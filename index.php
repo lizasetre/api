@@ -27,6 +27,12 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page']: '';
           case 'create':
             require_once 'form_create.php';
             break;
+          case 'details':
+            require_once 'product-details.php';
+            break;
+		  case 'update':
+            require_once 'form_update.php';
+            break;
         }
    ?>
       </div>
